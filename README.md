@@ -37,7 +37,7 @@ myenv\Scripts\activate
 On macOS/Linux:
 source myenv/bin/activate
 
-## 2. Install Dependencies
+### 2. Install Dependencies
 pip install -r requirements.txt
 
  Apply Migrations :
@@ -48,7 +48,7 @@ python manage.py runserver
 
 The API will be available at http://127.0.0.1:8000/
 
-##6. Postman Collection
+### 6. Postman Collection
 
 A Postman collection for testing the API endpoints is included in this repository.
 
