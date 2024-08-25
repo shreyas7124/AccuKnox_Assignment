@@ -60,6 +60,7 @@ A Postman collection for testing the API endpoints is included in this repositor
 3. Select the `Choose Files` tab.
 4. Upload the `Social Network API.postman_collection.json` file from this repository.
 5. The collection will be available for use with pre-configured requests.
+6. Thare various users created such as an example user:shreyas, email:shreyas@4.com, password:storm and other user is user:amar, email:amar@example.com, password:password123 (For testing purpose)
 
 Endpoints
 Signup: http://127.0.0.1:8000/api/signup/
