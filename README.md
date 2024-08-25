@@ -40,13 +40,13 @@ source myenv/bin/activate
 ## 2. Install Dependencies
 pip install -r requirements.txt
 
-##3.  Apply Migrations
+ Apply Migrations :
 python manage.py migrate
 
-##4. Runserver
+Runserver:
 python manage.py runserver
 
-##5. The API will be available at http://127.0.0.1:8000/
+The API will be available at http://127.0.0.1:8000/
 
 ##6. Postman Collection
 
