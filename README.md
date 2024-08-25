@@ -13,6 +13,12 @@ A Django-based social networking application featuring user registration, login,
   
 ## Installation Steps
 
+### Prerequisites
+
+1. **Docker**: Ensure Docker is installed on your system. 
+2. **Docker Compose**
+3. **Git**
+
 
 ### 1. Clone the Repository
 
@@ -22,8 +28,14 @@ cd AccuKnox_Assignment
 
 ##create a virtual eniveronment
 python -m venv myenv
-## Activate it
+
+
+## Activate the Virtual Environment
+On Windows:
 myenv\Scripts\activate
+
+On macOS/Linux:
+source myenv/bin/activate
 
 ## 2. Install Dependencies
 pip install -r requirements.txt
@@ -36,22 +48,35 @@ python manage.py runserver
 
 ##5. The API will be available at http://127.0.0.1:8000/
 
-##6. 
+##6. Postman Collection
+
+A Postman collection for testing the API endpoints is included in this repository.
 
 
-### Prerequisites
+### Importing the Collection
 
-1. **Docker**: Ensure Docker is installed on your system. You can download it from [Docker's official website](https://www.docker.com/products/docker-desktop).
-2. **Docker Compose**: Docker Compose is included with Docker Desktop but ensure it is up-to-date.
-3. **Git**: Make sure Git is installed to clone the repository.
+1. Open Postman.
+2. Click on `Import`.
+3. Select the `Choose Files` tab.
+4. Upload the `Social Network API.postman_collection.json` file from this repository.
+5. The collection will be available for use with pre-configured requests.
 
-### Clone the Repository
+##Endpoints are:
+Signup: http://127.0.0.1:8000/api/signup/
+Login: http://127.0.0.1:8000/api/login/
+Profile: http://127.0.0.1:8000/api/profile/
+Friend-request: http://127.0.0.1:8000/api/friend-request/
+Search request: http://127.0.0.1:8000/api/search/
+Friend respond: http://127.0.0.1:8000/api/friend-respond/
+Friend list: http://127.0.0.1:8000/api/friend-list/
+Pending Rewuests: http://127.0.0.1:8000/api/pending-requests/
 
-```bash
-git clone https://github.com/your-username/AccuKnox_Assignment.git
-cd AccuKnox_Assignment
+Feel free to adapt the provided information based on your specific project requirements and repository structure.
 
-docker-compose build
-docker-compose up
+
+
+For questions, please contact Shreyas Shivakumar at shreyas.sys12@gmail.com
+
+
 
 
