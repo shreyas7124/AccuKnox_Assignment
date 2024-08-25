@@ -48,7 +48,7 @@ python manage.py runserver
 
 The API will be available at http://127.0.0.1:8000/
 
-### 6. Postman Collection
+### 3. Postman Collection
 
 A Postman collection for testing the API endpoints is included in this repository.
 
