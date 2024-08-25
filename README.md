@@ -61,15 +61,15 @@ A Postman collection for testing the API endpoints is included in this repositor
 4. Upload the `Social Network API.postman_collection.json` file from this repository.
 5. The collection will be available for use with pre-configured requests.
 
-##Endpoints are:
+Endpoints
 Signup: http://127.0.0.1:8000/api/signup/
 Login: http://127.0.0.1:8000/api/login/
 Profile: http://127.0.0.1:8000/api/profile/
-Friend-request: http://127.0.0.1:8000/api/friend-request/
-Search request: http://127.0.0.1:8000/api/search/
-Friend respond: http://127.0.0.1:8000/api/friend-respond/
-Friend list: http://127.0.0.1:8000/api/friend-list/
-Pending Rewuests: http://127.0.0.1:8000/api/pending-requests/
+Friend Request: http://127.0.0.1:8000/api/friend-request/
+Search Users: http://127.0.0.1:8000/api/search/
+Respond to Friend Request: http://127.0.0.1:8000/api/friend-respond/
+Friend List: http://127.0.0.1:8000/api/friend-list/
+Pending Requests: http://127.0.0.1:8000/api/pending-requests/
 
 Feel free to adapt the provided information based on your specific project requirements and repository structure.
 
